@@ -1,0 +1,60 @@
+.nav-group .nav-link {
+  color: #79862D;
+  font-size: 20px;
+  font-weight: 900;
+}
+.nav-group .nav-link:hover {
+  color: #A9BE20;
+}
+
+.button {
+  background-color: #A9BE20 !important;
+  border: 0 !important;
+  border-radius: 20px;
+  width: 80px;
+}
+.button:hover {
+  background-color: #79862D !important;
+}
+
+.btn-tfiAlignJustify {
+  background-color: transparent !important;
+  border: 0 !important;
+  color: #A9BE20 !important;
+  border: 0;
+  width: 80px;
+  font-size: 26px;
+}
+.btn-tfiAlignJustify:hover {
+  background-color: transparent;
+  color: #79862D;
+}
+.btn-tfiAlignJustify:active {
+  background-color: transparent !important;
+}
+
+.mobile-bg {
+  position: absolute;
+  top: 70px;
+  background-color: #A9BE20 !important;
+  width: 100vw;
+  height: calc(100vh - 70px);
+  z-index: 9;
+  padding: 10px;
+}
+.mobile-bg .mb-link {
+  color: aliceblue;
+  font-size: 20px;
+}
+.mobile-bg .mb-link:hover {
+  color: #79862D;
+}
+.mobile-bg .button {
+  position: absolute;
+  bottom: 20px;
+  z-index: 99;
+  border-radius: 50px;
+  background-color: aliceblue !important;
+  color: #79862D;
+  font-weight: 700;
+}/*# sourceMappingURL=nav.module.css.map */

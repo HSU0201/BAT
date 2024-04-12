@@ -1,0 +1,9 @@
+- App Component：第一層的 component，負責整個介面。 
+    - Header Component：第二層的 component，。 
+    - MessageGroup Component：第二層的 component，所有訊息的群組。 
+        - Message Component：第三層的 component，訊息容器，包括頭像和文字。 
+            - Avatar Component：第四層的 component，用戶頭像。 
+            - TextBubble Component：第四層的 component，訊息的外觀與文字。 
+    - InputArea Component：第二層的 component，用戶輸入訊息的區域。 
+        - TextInput Component：第三層的 component，文本輸入框。
+        - SendButton Component：第三層的 component，發送訊息的按鈕。
