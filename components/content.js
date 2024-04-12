@@ -58,9 +58,9 @@ export default function Content() {
       updatedSelectedAreas.includes(area),
     )
     if (allAreasSelected) {
-      document.getElementById('all-check').checked = true
+      document.querySelector('#all-check').checked = true
     } else {
-      document.getElementById('all-check').checked = false
+      document.querySelector('#all-check').checked = false
     }
   }
 
