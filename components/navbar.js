@@ -18,7 +18,7 @@ export default function BrandNav() {
       <Navbar className="bg-body-tertiary">
         <Container>
           <Navbar.Brand href="#home">
-            <img src="/YouBike.png" width={100} height={40} alt="nav-logo" />
+            <img src="./YouBike.png" width={100} height={40} alt="nav-logo" />
           </Navbar.Brand>
           <Nav className={`me-auto d-none d-md-flex ${styles['nav-group']}`}>
             <Nav.Link
