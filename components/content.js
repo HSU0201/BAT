@@ -174,7 +174,7 @@ export default function Content() {
             </div>
           </div>
           <div className={`${styles['image']} col-md-5 d-none d-xl-block`}>
-            <img src="/bike.png" alt="nav-logo" />
+            <img src="./bike.png" alt="nav-logo" />
           </div>
         </div>
 

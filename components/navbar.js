@@ -69,7 +69,7 @@ export default function BrandNav() {
               className={`my-3 mx-4 ${styles['mb-link']}`}
               href="https://www.youbike.com.tw/region/main/signup-way/"
             >
-              使用1說明
+              使用說明
             </Nav.Link>
             <Nav.Link
               className={`my-3 mx-4 ${styles['mb-link']}`}
