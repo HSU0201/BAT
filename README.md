@@ -3,8 +3,9 @@
 - 配置基本的路由和頁面。
 - 設計對應的 RWD（響應式網頁設計）。
 
-## 串接 YouBike Open API：
-- 實現 API 串接，抓取台北市 YouBike 站點即時數據。
+## 數據源
+- 串接 YouBike Open API
+- 抓取台北市 YouBike 站點即時數據。
 - 為其它縣市配置假數據或預留空白區域。
 
 ## 縣市搜尋功能：
@@ -20,4 +21,3 @@
 - 開發一個能夠在點擊後切換路由的 Header 組件。
 - 路由的規劃應符合網站結構，不需在點擊後改變頁面內容。
 
-  https://hsu0201.github.io/Taipei-bike-spotter/
