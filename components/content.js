@@ -25,6 +25,7 @@ export default function Content() {
             setAreas(uniqueAreas)
             setStationData(data)
             setSelectedAreas(uniqueAreas)
+            console.log(111,data);
           })
           .catch((error) => console.error('Error fetching data:', error))
         break
@@ -202,8 +203,8 @@ export default function Content() {
                     <td>{selectedCity}</td>
                     <td>{item.sarea}</td>
                     <td>{item.sna}</td>
-                    <td>{item.sbi}</td>
-                    <td>{item.bemp}</td>
+                    <td>{item.available_rent_bikes}</td>
+                    <td>{item.available_return_bikes}</td>
                   </tr>
                 ))}
               {stationData.filter(
