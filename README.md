@@ -8,16 +8,19 @@ Taipei-bike-spotter 是一個用於顯示台北市 YouBike 站點即時資訊的
 ## 功能
 
 1. **即時站點資訊顯示**：顯示台北市所有 YouBike 站點的即時資訊，包括可借車輛數與可停空位數。
+![專案結構](./public/numberofbicycles.png)
 2. **城市搜尋輸入**：使用者可以透過搜尋輸入框來快速查詢特定站點資訊。
+![專案結構](./public/textSearch.png)
 3. **行政區勾選**：使用者可以透過勾選不同的行政區來篩選顯示的站點。
+![專案結構](./public/checkSearch.png)
 4. **動態路由**：應用程式的頁面切換會根據點擊不同的頁眉連結來進行。
+
 
 ## 技術棧
 
 - **前端框架**：React.js, Next.js
 - **地圖 API**：台北市 YouBike 公開 API
 - **版本控制**：Git, GitHub
-- **設計工具**：Figma
 
 ## 安裝與使用
 
