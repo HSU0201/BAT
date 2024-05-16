@@ -54,13 +54,19 @@ Taipei-bike-spotter 是一個用於顯示台北市 YouBike 站點即時資訊的
 
 ```plaintext
 Taipei-bike-spotter/
+├── .github/              # GitHub 配置文件
+├── .vscode/              # VS Code 配置文件
+├── components/           # React 組件
+├── data/                 # 資料處理
+├── pages/                # Next.js 頁面
 ├── public/               # 靜態資源文件夾
-├── src/                  # 源碼文件夾
-│   ├── components/       # React 組件
-│   ├── pages/            # Next.js 頁面
-│   ├── styles/           # CSS 樣式
-│   └── utils/            # 實用工具函數
+├── styles/               # CSS 樣式
+├── .eslintrc.json        # ESLint 配置文件
 ├── .gitignore            # Git 忽略文件
+├── .prettierignore       # Prettier 忽略文件
+├── .prettierrc.json      # Prettier 配置文件
+├── jsconfig.json         # JavaScript 配置文件
 ├── next.config.js        # Next.js 配置文件
+├── package-lock.json     # npm 鎖定文件
 ├── package.json          # 專案描述文件
 └── README.md             # 專案說明文件
